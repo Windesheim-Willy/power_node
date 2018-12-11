@@ -1,3 +1,6 @@
 [submodule "components/lidar"]
 	path = components/lidar
 	url = https://github.com/Windesheim-Willy/lidar.git
+[submodule "components/ansible"]
+	path = components/ansible
+	url = https://github.com/Windesheim-Willy/ansible.git

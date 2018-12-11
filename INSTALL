@@ -23,6 +23,10 @@ echo "Hostname changed to $HOSTNAME"
 cd $CURRENTDIR/components/lidar
 exec ./INSTALL
 
+# Install Ansible
+cd $CURRENTDIR/components/ansible
+exec ./INSTALL
+
 #Copy to Autostart
 ln -s $CURRENTDIR/START /etc/init.d/willy
 update-rc.d willy enable
