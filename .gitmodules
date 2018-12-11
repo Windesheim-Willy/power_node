@@ -1,0 +1,3 @@
+[submodule "components/lidar"]
+	path = components/lidar
+	url = https://github.com/Windesheim-Willy/lidar.git
